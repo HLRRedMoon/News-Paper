@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+}
+.hd-tittle{
+    font-size:60px;
+    font-style:italic;
+    text-align: center;
+}
+.b-paper{
+    display:flex;
+    width: 100%;
+    border:2px solid black;
+}
+.side{
+    display: block;
+border: 1.5px solid black;
+padding:0 10px;
+width: 25%;
+}
+.h-tittle{
+text-align: center;
+font-size:40px;
+font-style:italic;
+}
+.p-story{
+    display: block;
+    margin: 16px 0;
+    font-size:25px;
+    line-height: 1.5;
+    padding:0 5px;
+}
+.mid{
+    display:block;
+    border: 1.5px solid black;
+    width: 50%;
+}
+img{
+    width:100%;
+}
+.bott{
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+}
+.list{
+    list-style:none;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width:75%;
+    padding:0%;
+    margin:0%;
+    font-size:40px;
+}
+.link{
+    color: gray;
+    text-decoration: none;
+    padding-left:40px;
+}
+.link:hover{
+text-decoration: underline;
+}
+.item{
+    display:flex;
+    align-items:center;
+    flex: 1;
+}
+.Politics{
+background-color: #ffeaa7;
+}
+.Technology{
+    background-color: #81ecec;
+}
+.Local{
+   background-color: #55efc4;
+}
+.Opinion{
+    background-color: #74b9ff;
+}
+.Sport{
+    background-color: #a29bfe;
+}
